@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="IAD abstract for web-analytics">
+    <meta name="author" content="IU5-54 Volobuev V.N.">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>Существующие платформы бизнес аналитики</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Навигация</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">РИП Реферат</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="./exist_bi.html">Платформы БА</a></li>
+            <li><a href="./compar.html">Сравнительный анализ</a></li>
+            <li><a href="./qlickview.html">QlickView</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" role="main">
+    ::before
+      <div class="page-header">
+        <h1>Существующие платформы бизнес аналитики</h1>
+      </div>
+      <p>Бизнес аналитика Business Intelligence - методы, технологии
+      и средства извлечения и представления данных. BI-продукты
+      делятся на два типа: генераторы запросов и отчетов
+      и развитые аналитические OLAP-инструменты.</p>
+      <p>Реализация платформы бизнес аналитики на базе компонент
+      системных сервисов, ROLAP, мондриана, MDX запоров
+      и стандартными средствами визуализации:</p>
+      <img src="./cube.png" class="img-fluid" alt="OLAP-куб" width="600px">
+      
+      <p>Системные сервисы позволяют извлечь данные из БД
+      с последующей обработкой и записывать в хранилище
+      с определенной структурой, которая формируется согласно
+      конфигурации Mondrian с использованием OLAP-сервера.
+      Затем с помощью MDX запросов извлекается необходимая
+      информация и с помощью стандартных средств осуществляется
+      визуализация данных с последующей выгрузкой для хранения.</p>
+      <p>Одними из наиболее известных BI-решений с открытым
+      исходным кодом являются продукты Pentaho BI Suite
+      от Pentaho Corporation и Jaspersoft BI Suite
+      от компании Jaspersoft. Продукт Pentaho состоит из отдельных
+      модулейкомпонентов, которые вместе формируют Pentaho BI Platform.</p>
+      <p>Pentaho BI – пакет ориентированный более на работу с OLAP,
+      и в частности, с OLAP движком Mondrian.</p>
+      <p>Модуль CDF работает на базе Pentaho являясь графической
+      надстройкой на нем. Позволяет создавать несколько различных
+      видов диаграмм. Возможно только создание готовых решений
+      администратором и затем пользователь сможет выбрать только
+      из этих готовых решений.</p>
+      <p>Saiku – самая подходящая альтернатива собственной системе.
+      Многие идеи были взяты из Saiku. Интерфейс понятен
+      для пользователя, технические детали отсутствуют,
+      но так как система не автономна и в ее работе участвуют
+      несколько различных модулей (Mondrian, например), то добиться
+      слаженной работы этих модулей оказалось затруднительно.</p>
+      <p>Jaspersoft в плане поддержки и работы с OLAP почти ничем
+      не отличается от Pentaho и недостатки там точно такие же.</p>
+      
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/jquery-3.1.1.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
